@@ -50,7 +50,9 @@ MCP 通过提供统一的开放标准，替代了以往分散的集成方式，�
 - Python 3.8+ 或 Node.js 14+
 - Claude Desktop App（可选）
 
-### 安装
+### 基本用法
+
+1. **安装**
 
 ```bash
 # Python
@@ -60,7 +62,7 @@ pip install mcp-python
 npm install @anthropic-ai/mcp-node
 ```
 
-### 基本示例
+2. **创建服务器**
 
 ```python
 from mcp import MCPServer
@@ -79,11 +81,9 @@ server.start()
 
 ## 工具列表
 
-MCP 提供了丰富的工具集，详细信息请查看 [tools.md](./docs/tools.md)：
+MCP 提供了丰富的工具集，详细信息请查看 [tools.md](./docs/tools.md)
 
-![MCP Tools](./images/mcp-tools.html)
-
-## 示例
+## 常见用例
 
 ### 1. 文件系统集成
 
@@ -103,20 +103,13 @@ def query_database(sql: str):
     pass
 ```
 
-## 贡献指南
+## 贡献
 
-我们欢迎任何形式的贡献，包括但不限于：
-
-- 提交 Bug 报告
-- 改进文档
-- 添加新功能
-- 优化代码
-
-请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md) 了解更多信息。
+我们欢迎任何形式的贡献！
 
 ## 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](./LICENSE) 了解详情。
+本项目采用 MIT 许可证
 
 ## 相关资源
 
